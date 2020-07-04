@@ -36,7 +36,7 @@ section{
     height:600px;
     padding-bottom:00px;
 }
-.link{
+.hober-effect{
     text-decoration:none;
     background:linear-gradient(45deg,#EC4E8D,#EC4C77) ;
     color:white;
@@ -45,15 +45,10 @@ section{
     font-weight:300;
     display:inline-block;
 }
-.link1{
-    text-decoration:none;
-    background:linear-gradient(-45deg,#EC4E8D,#EC4C77) ;
-    color:white;
-    padding:10px 20px;
-    border-radius:5px;
-    font-weight:300;
-    display:inline-block;
+.hober-effect:hover{
+    background:linear-gradient(45deg,lightsalmon,tomato);
 }
+
 .half-width{
     width:40%;
     float:left;
