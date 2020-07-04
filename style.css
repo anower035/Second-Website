@@ -1,0 +1,136 @@
+body{
+    font-family:'Poppins', sans-serif;
+    background-image:url("Images/biography-bg.png");
+    background-repeat:cover;
+    
+   
+}
+h1{
+    font-size:50px;
+    color:#EC4C7A;
+}
+h2{
+    font-size:40PX;
+    font-weight:200;
+}
+.header{
+    background-image: url("Images/header-bg.png");
+    background-repeat: no-repeat;
+    width:100%;
+}
+.what{
+    text-align: center;
+}
+.latest_work{
+    text-align:center;
+    padding:80px 0;
+    margin-bottom:0;
+}
+p{
+    color:dimgray;
+}
+section{
+    height:600px;
+    padding-bottom:100px;
+}
+.link{
+    text-decoration:none;
+    background:linear-gradient(45deg,lightsalmon,tomato) ;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    font-weight:300;
+    display:inline-block;
+}
+.link1{
+    text-decoration:none;
+    background:linear-gradient(-45deg,lightsalmon,tomato) ;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    font-weight:300;
+    display:inline-block;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.half-width img{
+    width:100%;
+}
+.latest-works{
+    background-image: url("Images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom:0;
+
+}
+.latest-part{
+    width:80%;
+    height:400px;
+    margin:0 auto;
+}
+.latest{
+    width:33%;
+    float:left;   
+}
+.latest-part img{
+    width:100%;
+}
+.what{
+    margin:0 auto;
+    text-align:center;
+    width:35%;
+    padding-bottom:1px;
+}
+.what h2{
+    padding-top:30px;
+}
+.what p{
+    color:black;
+    padding-top:20px;
+}
+.what h6{
+    font-weight:100;
+    color:dimgray;
+    margin-top:1px;
+}
+.name{
+    font-size:15px;
+    margin-bottom:5px;
+    font-weight: bold;
+}
+.button{
+    height:200px;
+    width:50%;
+    background-image:linear-gradient(-45deg,#EC5197,#EC4B74);
+    margin:70px auto;
+    text-align: center;
+    border-radius:10px;
+}
+.button h2{
+    color: white;
+    font-size:20px;
+    margin-bottom:5px;
+}
+.button p{
+   color: white;
+   font-size:20px;
+   padding-top:30px;
+   line-height:50px;
+}
+span{
+    font-size:30px;
+}
+footer{
+    background-image: url("Images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+footer p{
+    text-align: center;
+    padding-top:60px;
+}
+.copyright{
+    margin-top:200px;
+}
