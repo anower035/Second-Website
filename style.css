@@ -1,9 +1,6 @@
 body{
     font-family:'Poppins', sans-serif;
-    background-image:url("Images/biography-bg.png");
-    background-repeat:cover;
-    
-   
+    margin:0;
 }
 h1{
     font-size:50px;
@@ -16,7 +13,13 @@ h2{
 .header{
     background-image: url("Images/header-bg.png");
     background-repeat: no-repeat;
-    width:100%;
+    background-position: right;
+    background-size:1310px 600px;
+}
+.second-part{
+    background-image:url("Images/biography-bg.png");
+    background-repeat:no-repeat;
+    background-size:1310px 600px;
 }
 .what{
     text-align: center;
@@ -31,11 +34,11 @@ p{
 }
 section{
     height:600px;
-    padding-bottom:100px;
+    padding-bottom:00px;
 }
 .link{
     text-decoration:none;
-    background:linear-gradient(45deg,lightsalmon,tomato) ;
+    background:linear-gradient(45deg,#EC4E8D,#EC4C77) ;
     color:white;
     padding:10px 20px;
     border-radius:5px;
@@ -44,7 +47,7 @@ section{
 }
 .link1{
     text-decoration:none;
-    background:linear-gradient(-45deg,lightsalmon,tomato) ;
+    background:linear-gradient(-45deg,#EC4E8D,#EC4C77) ;
     color:white;
     padding:10px 20px;
     border-radius:5px;
@@ -56,14 +59,32 @@ section{
     float:left;
     margin-left:5%;
     padding-left:2%;
+    line-height:25px;
+    position: relative;
+    text-align: justify;
 }
 .half-width img{
-    width:100%;
+    width:600px;
+    height:600px;
+}
+.my-img{
+    position:absolute;
+    left:40%;
+}
+.header-one{
+    margin-left:8%;
+    padding-left:5%;
+    padding-top: 8%;
+}
+.middle-two{
+    margin-right:3%;
+    padding-right:2%;
+    padding-top: 8%;
 }
 .latest-works{
     background-image: url("Images/latest-work-bg.png");
     background-repeat: no-repeat;
-    margin-bottom:0;
+    background-size:1310px 600px;
 }
 .latest-part{
     width:80%;
@@ -89,6 +110,7 @@ section{
 .what p{
     color:black;
     padding-top:20px;
+    font-weight:500;
 }
 .what h6{
     font-weight:100;
@@ -125,11 +147,12 @@ span{
 footer{
     background-image: url("Images/footer-bg.png");
     background-repeat: no-repeat;
+    background-size:1310px 800px;
 }
 footer p{
     text-align: center;
     padding-top:60px;
 }
 .copyright{
-    margin-top:200px;
+    margin-top:100px;
 }
